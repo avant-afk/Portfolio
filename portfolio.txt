@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navio Avant Mulanda | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Navio Avant Mulanda</h1>
+        <p>Information Technology Student</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am an Information Technology student at Kabarak University with a passion
+            for technology, software development, networking, and database management.
+            I enjoy solving problems using technology and continuously learning new
+            skills to improve my professional and technical abilities.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Java Programming</li>
+            <li>HTML & CSS</li>
+            <li>Android Development</li>
+            <li>Database Management (MySQL)</li>
+            <li>Git & GitHub</li>
+            <li>Computer Networking</li>
+            <li>Microsoft Office Suite</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>
+            <strong>Kabarak University</strong><br>
+            Information Technology Student
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>
+                A Java-based application designed to manage student records,
+                registration details, and academic information.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive website showcasing my skills, education, and projects.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Android Mobile Application</h3>
+            <p>
+                A mobile application developed using Android Studio to demonstrate
+                mobile app development concepts.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Career Goals</h2>
+        <p>
+            My goal is to become a skilled IT professional specializing in software
+            development and modern technology solutions that improve people's lives
+            and business operations.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: nmulanda@kabarak.ac.ke</p>
+        <p>GitHub: avant-afk</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Navio Avant Mulanda. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

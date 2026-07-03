@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avant Mulanda | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e40af);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+    margin:5px 0;
+}
+
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#93c5fd;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#1e40af;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.skill-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.project h3{
+    color:#1e40af;
+    margin-bottom:10px;
+}
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#1e40af;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.btn:hover{
+    background:#0f172a;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Avant Mulanda</h1>
+    <p>Diploma in Information Technology Student</p>
+    <p>Software Developer | Android Developer | Web Developer</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+        <p>
+            Hello! I'm <strong>Avant Mulanda</strong>, a passionate Diploma in
+            Information Technology student at Kabarak University. I enjoy
+            creating mobile applications, websites, and software solutions
+            that solve real-world problems.
+        </p>
+
+        <br>
+
+        <p>
+            My interests include Android Development, Web Development,
+            Database Systems, Networking, and Software Engineering. I am
+            constantly learning new technologies and improving my technical
+            skills through academic and personal projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill-box">
+            <h3>Programming</h3>
+            <p>Java, JavaScript, HTML, CSS</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Mobile Development</h3>
+            <p>Android Studio, Java</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Database Management</h3>
+            <p>MySQL, SQL</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Networking</h3>
+            <p>Routing, Switching, VLANs</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Development Tools</h3>
+            <p>GitHub, VS Code, RStudio</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Web Development</h3>
+            <p>Responsive Websites</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>📱 Calculator Mobile App</h3>
+            <p>
+                Developed a calculator application using Java and Android
+                Studio capable of performing arithmetic operations with a
+                user-friendly interface.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>✅ Task Management App</h3>
+            <p>
+                Built a task management application that allows users to
+                create, update, organize, and manage daily activities.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>🎮 Mobile Gaming App</h3>
+            <p>
+                Designed and developed a gaming application focused on user
+                interaction, gameplay mechanics, and engaging experiences.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>🛒 Shopping Websites</h3>
+            <p>
+                Created responsive e-commerce websites featuring product
+                catalogs, navigation systems, and modern web layouts.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>⚖️ Kenya Law Bills Scraper</h3>
+            <p>
+                Developed a web scraping solution using R and rvest to
+                extract legislative bill information for research purposes.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Information</h2>
+
+    <div class="contact">
+        <p><strong>Email:</strong> avantwalker3@gmail.com</p>
+        <p><strong>Phone:</strong> 0705195673</p>
+        <p><strong>Location:</strong> Nakuru, Kenya</p>
+
+        <a href="mailto:avantwalker3@gmail.com" class="btn">
+            Contact Me
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>Designed and Developed by Avant Mulanda © 2026</p>
+</footer>
+
+<script>
+console.log("Avant Portfolio Loaded Successfully");
+</script>
+
+</body>
+</html>
